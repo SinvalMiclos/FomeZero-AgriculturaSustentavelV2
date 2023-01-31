@@ -153,4 +153,36 @@ iframe{
     background-color: #f8f8ff;
     margin: 0 auto;
 }
+/* @media all and (max-width: 1280px){
+    .main-project{
+        flex-wrap: wrap;
+    }
+    #projeto{
+        height: 100%;
+        display: block;
+    }
+} */
+@media all and (max-width: 1600px){
+    .texto{
+        margin: 28vh auto;
+        font-size: 16px;
+    }
+    .video{
+        margin: 27vh auto;
+    }
+    iframe{
+        width: 550px;
+        height: 350px;
+    }
+    .main-project{
+        flex-wrap: wrap;
+    }
+    #projeto{
+        height: 100%;
+        display: block;
+    }
+}
+
+}
+
 
