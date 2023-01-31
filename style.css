@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Poppins&display=swap')
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #b7901e;
+}
+/* MENU */
+header{
+    background-color: #f0c0306e;
+    width: 100%;
+    position: fixed;
+    backdrop-filter: blur(10px);
+}
+#logo{
+    display: inline-block;
+    padding: 0px 0px 0px 60px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#logo img{
+    width: 10vh;
+}
+.menu{
+    display: inline-block;
+    float: right;
+    padding: 20px 40px 0px 0px;
+}
+.menu li{
+    list-style: none;
+    display: inline-block;
+    padding: 0px 40px 0px 0px;
+}
+/* FIM MENU */
+/* Inicio */
+#inicio{
+    height: 100vh;
+    background: url(img/background.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+.tex-ini{
+    text-align: center;
+    align-items: center;
+}
+#inicio h1{
+    font-size: 60px;
+    width: 725px;
+    text-align: center;
+    line-height: 0.9;
+    padding-bottom: 40px;
+    text-shadow: 1px 2px black;
+}
+#inicio h2{
+    border-top: 3px white solid;
+    width: 700px;
+    text-align: center;
+    margin-bottom: 40px;
+    text-shadow: 1px 2px black;
+}
+#inicio p{
+    text-align: center;
+    width: 296px;
+    margin: 0 auto;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+}
+#inicio p:hover{
+    text-decoration: underline;
+}
+/* FIM INICIO */
+/* INICIO SECTION PROJETO */
+#projeto{
+    height: 100vh;
+    width: 98vw;
+    margin: 0 auto;
+    display: flex;
+    background-color: #f8f8ff;
+}
+.main-project{
+    display: flex;
+    width: 100%;
+    background-color: rgb(250, 242, 242);
+}
+.video{
+    height: 550px;
+    margin: 110px auto;
+    text-align: center;
+}
+.video h2{
+    margin: 0px auto 45px auto;
+    text-align: center;
+    background-color: #DEC8C8;
+    width: 170px;
+    border-radius: 20px;
+    padding: 10px;
+    font-family: 'Anton', sans-serif;
+
+}
+iframe{
+    border: 1px solid black;
+    box-shadow: 0px 0px 20px 0.5px rgba(0, 0, 0, 0.5);
+}
+.texto{
+    margin: auto;
+    width: 590px;
+    text-align: justify;
+    font-size: 21px;
+}
+.texto p{
+    padding-bottom: 10px;
+    word-spacing: 1px;
+    line-height: 30px;
+    font-family: 'Open Sans', sans-serif;
+    text-indent: 20px;
+}
+.texto h2{
+    text-align: center;
+    margin: 0px auto 25px auto;
+    background-color: #DEC8C8;
+    width: 170px;
+    border-radius: 20px;
+    padding: 10px;
+    font-family: 'Anton', sans-serif;
+}
