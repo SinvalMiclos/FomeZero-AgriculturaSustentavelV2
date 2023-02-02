@@ -240,6 +240,19 @@ iframe{
         font-size: 15px;
     }
 }
+@media all and (max-width: 425px){
+    .texto{
+        width: 90vw;
+        margin: auto;
+        padding: 60px 0;
+        font-size: 10px;
+    }
+    iframe{
+        width: 97vw;
+        height: 22vh;
+    }
+}
+
 @media all and (max-width:390px){
     #inicio p{
         font-size: 20px;
@@ -248,8 +261,15 @@ iframe{
     .menu {
         display: none;
     }
+/*     .paragrafos{
+    width: 100vw;
+    height: 40vh;
+    }
+    .texto{
+        padding: 0;
+    }
     #logo{
         margin: auto;
         padding: 0;
     }
-}
+} */
