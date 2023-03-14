@@ -190,6 +190,7 @@ Fim Seção Projeto
   height: 100%;
   display: flex;
   flex-direction: column;
+  padding: 4% 0 6% 0;
 }
 .titulo {
   display: flex;
@@ -281,6 +282,10 @@ Fim Seção Seleção
 ================*/
 #Dicas {
   height: 100%;
+}
+.content-dicas {
+  height: 60vh;
+  flex-wrap: wrap;
 }
 .arrow {
   font-size: 2.8rem;
