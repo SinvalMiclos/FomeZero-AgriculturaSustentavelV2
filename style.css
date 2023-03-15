@@ -284,7 +284,7 @@ Fim Seção Seleção
   height: 100%;
 }
 .content-dicas {
-  height: 60vh;
+  height: 70vh;
   flex-wrap: wrap;
 }
 .arrow {
@@ -322,6 +322,7 @@ Fim Seção Seleção
 .cards {
   max-width: 360px;
   height: 360px;
+  margin: 30px;
   background-color: #dec8c8;
   border-radius: 20px;
   flex-wrap: wrap;
@@ -463,6 +464,13 @@ footer h2 {
   height: 100%;
   margin-top: 0;
 }
+/* Media query para telas menores que 1700px */
+@media screen and (max-width: 1700px) {
+  .content-dicas {
+    height: 100vh;
+    margin-bottom: 60px;
+  }
+}
 
 /* Media query para telas menores que 1024px */
 @media screen and (max-width: 1024px) {
@@ -506,6 +514,9 @@ footer h2 {
   }
   .content-section {
     flex-direction: column;
+  }
+  .content-dicas {
+    height: 100%;
   }
   .sub {
     width: 60%;
