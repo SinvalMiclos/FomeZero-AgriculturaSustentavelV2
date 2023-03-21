@@ -508,7 +508,7 @@ footer h2 {
     width: 15%;
   }
   .titulo {
-    width: 30vw;
+    width: 45%;
   }
   .fmz {
     width: 80vw;
@@ -602,9 +602,10 @@ footer h2 {
 }
 
 .titulo {
-  width: 80%;
   font-size: 2rem;
   margin: 6vh auto;
+  flex-wrap: wrap;
+  padding: 0 20px;
 }
 
 .fmz,
