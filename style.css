@@ -1,3 +1,4 @@
+/* Configuraçao Global */
 * {
   margin: 0px;
   padding: 0px;
@@ -9,6 +10,47 @@ html {
 body {
   font-size: 1.6rem;
 }
+/* ================== */
+/* Configuração do conteudo das seçoes */
+.main-section {
+  text-align: center;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 8% 0 10% 0;
+}
+.content-section {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  justify-content: space-around;
+}
+/* ===================================== */
+/* Configuração de Titulos das seçoes */
+.titulo {
+  display: flex;
+  flex-direction: column;
+  font-size: 2.7rem;
+  background-color: #dec8c8;
+  width: 24vw;
+  margin: 6vh auto;
+  border-radius: 20px;
+  padding: 0 20px;
+}
+.sub {
+  background-color: #3c7a79;
+  color: #fff;
+  width: 28%;
+  margin: auto;
+  border-radius: 40px;
+  padding: 15px;
+  margin-top: 30px;
+}
+/* ============================ */
+/*
+========== 
+   MENU 
+==========*/
 .content-menu {
   position: fixed;
   display: flex;
@@ -20,10 +62,6 @@ body {
   backdrop-filter: blur(10px);
   z-index: 2;
 }
-/*
-========== 
-   MENU 
-==========*/
 a {
   color: white;
   text-decoration: none;
@@ -176,56 +214,25 @@ Seção Projeto
 /*============== 
 Fim Seção Projeto 
 ================*/
+
 /*==============
   Seção Seleção 
 ================*/
+
 #selecao {
   height: 100%;
 }
 .icons {
   width: 10%;
 }
-.main-section {
-  text-align: center;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  padding: 8% 0 10% 0;
-}
-.titulo {
-  display: flex;
-  flex-direction: column;
-  font-size: 2.7rem;
-  background-color: #dec8c8;
-  width: 24vw;
-  margin: 6vh auto;
-  border-radius: 20px;
-  padding: 0 20px;
-}
-.fmz {
-  width: 70vw;
-  height: 100%;
-  margin: auto;
-}
+
+.fmz,
 .ags {
   width: 70vw;
   height: 100%;
   margin: 0px auto;
 }
-.content-section {
-  display: flex;
-  justify-content: center;
-  height: 100%;
-  justify-content: space-around;
-}
-.sub {
-  background-color: #dec8c8;
-  width: 28%;
-  margin: auto;
-  border-radius: 40px;
-  padding: 15px;
-  margin-top: 30px;
-}
+
 .sub-titulos {
   font-size: 2.5rem;
 }
@@ -238,9 +245,11 @@ Fim Seção Projeto
   word-spacing: 0.5px;
   text-align: justify;
 }
+
 /*==============
 Fim Seção Seleção 
 ================*/
+
 /*==============
   Seção Metas
 ================*/
@@ -420,7 +429,7 @@ footer h2 {
   font-size: 5rem;
   color: #222;
 }
-.teste {
+.footer-paragrafo {
   padding: 20px 0px;
 }
 .paragrafos-design {
@@ -509,11 +518,9 @@ footer h2 {
   .icons {
     width: 15%;
   }
-  .fmz {
-    width: 80vw;
-  }
+  .fmz,
   .ags {
-    width: 80vw;
+    width: 90vw;
   }
   .content-section {
     flex-direction: column;
@@ -523,10 +530,10 @@ footer h2 {
     width: 70%;
   }
   .sub {
-    width: 35%;
+    width: 45%;
   }
   .selecao-paragrafos {
-    width: 70%;
+    width: 80%;
     font-size: 1.8rem;
   }
 }
