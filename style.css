@@ -65,7 +65,7 @@ body {
   position: fixed;
   display: flex;
   justify-content: space-between;
-  background-color: #f0c0306e;
+  background-color: #f0c0308c;
   align-items: center;
   min-width: 100vw;
   width: 100%;
@@ -75,6 +75,8 @@ body {
 a {
   color: white;
   text-decoration: none;
+  font-family: "Oswald", sans-serif;
+  text-shadow: 1px 2px black;
 }
 ul li {
   list-style: none;
@@ -355,22 +357,22 @@ Fim Seção Seleção
   height: 550px;
 }
 .card-1 {
-  background-image: url(img/d1.jpg);
+  background-image: url(img/icons\ metas/d1.jpg);
   background-size: cover;
   background-position: center;
 }
 .card-2 {
-  background-image: url(img/d2.jpg);
+  background-image: url(img/icons\ metas/d2.jpg);
   background-size: cover;
   background-position: center;
 }
 .card-3 {
-  background-image: url(img/d3.jpeg);
+  background-image: url(img/icons\ metas/d3.jpeg);
   background-size: cover;
   background-position: center;
 }
 .card-4 {
-  background-image: url(img/d4.jpeg);
+  background-image: url(img/icons\ metas/d4.jpeg);
   background-size: cover;
   background-position: center;
 }
@@ -453,7 +455,7 @@ footer h2 {
   font-family: fontAwesome;
   position: absolute;
   top: 0;
-  left: 0;
+  left: 0px;
   height: 0;
   font-size: 5rem;
   overflow: hidden;
@@ -484,7 +486,7 @@ footer h2 {
 }
 .icons-rede li:hover::before {
   height: 100%;
-  margin-top: 0;
+  margin-top: 0px;
 }
 /* Media query para telas menores que 1700px */
 @media screen and (max-width: 1700px) {
@@ -493,7 +495,10 @@ footer h2 {
     margin-bottom: 60px;
   }
   .cards {
-    margin: 60px;
+    margin: 61px;
+  }
+  .metas {
+    margin: 28px;
   }
 }
 
@@ -561,10 +566,6 @@ footer h2 {
     margin: auto;
     padding: 0;
   }
-
-  .cards {
-    pointer-events: none;
-  }
   .main-inicio h2 {
     font-size: 2rem;
     width: 80vw;
@@ -593,12 +594,27 @@ footer h2 {
   .menu {
     font-size: 1.8rem;
   }
-
   .menu-btn {
     padding: 0px 30px;
     gap: 25px;
   }
+  .arrow {
+    visibility: hidden;
+  }
+  .cards {
+    height: 560px;
+    pointer-events: none;
+  }
+  .content-cards {
+    visibility: visible;
+    opacity: 1;
+    padding-top: 30px;
+  }
+  .paragrafos-design {
+    padding-top: 25px;
+  }
 }
+
 /* Media query para telas menores que 600px */
 
 @media only screen and (max-width: 600px) {
